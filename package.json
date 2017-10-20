@@ -1,0 +1,30 @@
+{
+  "name": "airplay-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "alac2pcm": "^1.1.0",
+    "bonjour": "^3.5.0",
+    "crypto": "^1.0.1",
+    "httplike": "^1.0.2",
+    "ip": "^1.1.5",
+    "ipaddr.js": "^1.5.4",
+    "nicercast": "^0.1.0",
+    "node-forge": "^0.7.1",
+    "node-rsa": "^0.4.2",
+    "node-sonos": "git://github.com/stephen/node-sonos.git#stephen-1.0.0",
+    "node-uuid": "^1.4.8",
+    "priorityqueuejs": "^1.0.0",
+    "random-mac": "0.0.4",
+    "readable-stream": "^2.3.3",
+    "sdp-transform": "^2.3.0",
+    "sonos": "git://github.com/stephen/node-sonos.git#stephen-1.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
